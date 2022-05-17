@@ -1,0 +1,50 @@
+#box {
+  list-style: none;
+}
+
+.id {
+  padding: 20px 30px;
+}
+
+#news_list {
+  cursor: pointer;
+  box-shadow: 0 7px 7px 0 rgb(0 0 0 / 20%);
+  border-radius: 5px;
+  border: solid black 1px;
+  width: 370px;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+
+.urlToImage {
+  width: 370px;
+  height: 180px;
+}
+
+.text_list {
+  padding: 0px 0px 5px 5px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.under_list {
+  display: flex;
+  align-items: center;
+}
+
+.div {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+}
